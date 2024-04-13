@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Happy Valentines day Codepen! -->
+    <div class="bgoverlay">
+      <div class="container">
+        <span class="ico">
+          <span class="ico2"></span>
+          <span class="title">Click Me</span>
+        </span>
+        <div class="endtext">
+          <span class="close" title="Restart"><i class="fa fa-times"></i></span>
+          <h1>Hi Navya..</h1>
+          <h2>All my feelings are waiting for you to read..</h2>
+          <p>You need to send request to access my feelings because I don't anyone to read except you.Just Enter Your full name in message box and send request then I can send my feelings to you... </p>
+          <div style="text-align: center">
+            
+                <button>
+                    <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1Ne1vD5UDOWkgksClr5uHv9HPAimFXih3/view?usp=drive_link"
+                  >Read</a
+                >
+                </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".title").click(function () {
+          $(".container").addClass("open");
+        });
+
+        $(".close").click(function () {
+          $(".container").removeClass("open");
+        });
+      });
+
+    </script>
+  </body>
+</html>
